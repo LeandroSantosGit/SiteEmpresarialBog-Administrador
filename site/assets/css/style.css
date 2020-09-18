@@ -1,0 +1,215 @@
+body {
+  margin-bottom: 60px;
+}
+
+nav ul li.menu a {
+    color: #FFF !important;
+}
+
+nav ul li.menu a:hover {
+    color: #6c757d !important;
+}
+
+header {
+    margin-bottom: 56px !important;
+}
+
+.header-navbar {
+    background: #1e2021;
+}
+
+.servicos {
+    background-color: #F9FAFF;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.servicosh2 {
+  margin-bottom: 40px;
+  font-size: 2.3rem !important;
+  font-weight: bold;
+} 
+
+/*Inicio tamanho icone*/
+.tamanh-icone {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icon-row {
+    padding: 5px 0 0px;
+}
+
+.ion {
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.preview-icon { vertical-align: bottom; }
+
+.preview-scale {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.step {
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    width: 100%;
+}
+
+.step i {
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-32 { font-size: 32px; }
+.size-48 { font-size: 48px; }
+.size-64 { font-size: 64px; }
+.size-96 { font-size: 96px; }
+/*Fim tamanho icone*/
+
+.video {
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.add-shadow {
+    background: 0 0 14px rgba(0, 0, 0, 0.02);
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.35);
+    border-radius: 0.25rem;
+}
+
+.blog-home {
+    background-color: #F9FAFF;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* Inicio rodapé */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Sobre Empresa*/
+.sobre-empresa {
+    background-color: #F9FAFF;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* contato*/
+.contato {
+    background-color: #F9FAFF;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* Blog */
+.blog {
+    background-color: #F9FAFF;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+.img-car-blog {
+    margin: 25px 0 15px 0;
+}
+
+/* artigo */
+.artimg {
+    margin-bottom: 20px;
+}
+
+.blog-text a{
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    background: #252728;
+}
+
+.sub-footer {
+    background: #1e2021;
+    width: 100%;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.company-social li {
+    display: inline-block;
+    margin: 3px;
+}
+
+.company-copyright {
+    padding: 20px 0;
+    border-top: solid 1px #292929;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.link-mouse:hover {
+    color: #13a4c7 !important;
+}
+
+.button-submit {
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#msg_comentario {
+    position: absolute;
+    top: -80px;
+}

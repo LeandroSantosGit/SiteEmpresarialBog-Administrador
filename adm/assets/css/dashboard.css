@@ -1,0 +1,91 @@
+
+body {
+  background-color: #EAEEF3;
+}
+
+.menu-header {
+    color: #FFF !important;
+}
+
+.sidebar {
+    background-color: #222C3C;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: calc(100vh - 56px);
+    transition: all 0.3s;
+}
+
+/* Itens do menu */
+.sidebar ul li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #C7CACE;
+    text-decoration: none;
+}
+
+/* mudar a cor ao passar o mouse */
+.sidebar ul li a:hover {
+    color: #ECEDEE;
+    background-color: #354358;
+}
+
+/* deixar link no menu ativo */
+.sidebar ul .active a {
+    color: #ECEDEE;
+    background-color: #354358;
+}
+
+/* margim e cor de fundo para o submenu */
+.sidebar ul ul a {
+    padding-left: 2.5rem;
+    background-color: #1E2835;
+}
+
+/* ocultar para dispositivos medios */
+.sidebar.toggled {
+    margin-left: -250px;
+}
+
+/* para dispositivo 768px*/
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+    .sidebar.toggled {
+        margin-left: 0px;
+    }
+}
+
+/* SubMenu */
+.sidebar [data-toggle="collapse"] {
+    position: relative;
+}
+.sidebar [data-toggle="collapse"]:before {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";  /* fonte que será usada */
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+}
+
+/* alterar cor do menu e o ícone quando for expandido */
+.sidebar [aria-expanded="true"] {
+    background-color: #19222D;
+}
+.sidebar [aria-expanded="true"]:before {
+    content: "\f0d8";
+}
+
+/* Grupo de lista1 */
+.content {
+    width: 100%;
+}
+.titulo {
+    font-size: 2.0rem !important;
+}
+
+/* Badge do bootstrap */
+.badge {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
+    font-size: 16px !important;
+}

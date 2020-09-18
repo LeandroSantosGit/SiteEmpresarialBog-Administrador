@@ -1,0 +1,18 @@
+{
+    "name": "Leandro Santos",
+    "description": "Projeto PHP Site Empresarial",
+    "authors": [
+        {
+            "name": "Leandro Santos",
+            "email": "santosdeveloper19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "Sts\\": "app/sts",
+            "App\\": "app"
+        }
+    },
+    "require": {}
+}

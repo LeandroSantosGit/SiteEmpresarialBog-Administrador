@@ -1,0 +1,25 @@
+{
+    "name": "LeandroSantosGit/sitephpadm",
+    "description": "CMS para administração de site",
+    "keywords": ["cms", "site", "php"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leandro Santos",
+            "email": "santosdeveloper19@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/LeandroSantosGit",
+            "homepage": "https://www.linkedin.com/in/leandro-p-7811b1151/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config",
+            "Module\\": "module"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
